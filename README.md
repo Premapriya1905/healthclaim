@@ -2,6 +2,8 @@
 
 A full-stack Health Insurance Claim Management application featuring real-time processing, smart analytics, and a secure, fast user experience.
 
+Video Walkthrough - [ https://drive.google.com/file/d/1qqH9Oa7MB9km1U2cXD8nulGKWvXKGmXu/view?usp=sharing ]
+
 ---
 
 ## Tech Stack
