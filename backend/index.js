@@ -11,7 +11,7 @@ const port = process.env.PORT || 5000;
 app.use(cors());
 app.use(express.json());
 
-const claims = require('./routes/claims');
+const claims = require('./src/routes/claims');
 
 app.use('/api/v1/claims', claims);
 
@@ -19,7 +19,7 @@ app.get('/', (req, res) => {
   res.send('Server is running');
 });
 
-const connectDB = require('./config/db');
+const connectDB = require('./src/config/db');
 
 connectDB();
 
